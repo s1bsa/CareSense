@@ -12,14 +12,14 @@ Screenshots
 
 Credit to 
 <ul>
-    </li>Chia</li>
-    </li>Emmanuel</li>
-    </li>Jason</li>
-    </li>Jonny</li>
-    </li>Karim</li>
-    </li>Kais</li>
-    </li>Mobulu></li>
-    </li>Oscar</li>
-    </li>Tami</li>
-    </li>Thomas</li>
+    <li>Chia</li>
+    <li>Emmanuel</li>
+    <li>Jason</li>
+    <li>Jonny</li>
+    <li>Karim</li>
+    <li>Kais</li>
+    <li>Mobulu></li>
+    <li>Oscar</li>
+    <li>Tami</li>
+    <li>Thomas</li>
 </ul>
