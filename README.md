@@ -6,8 +6,8 @@ I specifically worked on the final part of this project. I connected the finaliz
 
 Screenshots
 <div align="center">
-    <img src="Screenshot 2026-05-12 210905.png" width=1920>
-    <img src="Screenshot 2026-05-12 210905.png" width=1920>
+    <img src="Screenshot 2026-05-12 210905.png" width=700>
+    <img src="Screenshot 2026-05-12 210905.png" width=700>
 </div>
 
 Credit to 
