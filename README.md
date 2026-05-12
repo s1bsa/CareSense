@@ -4,12 +4,6 @@ This project was aimed to be used by doctors to aid them while dealing with pati
 
 I specifically worked on the final part of this project. I connected the finalized classifier to the llm and had it take treatements and tests from a database that I had helped create by scraping the NHS's and other medical websites. 
 
-Screenshots
-<div align="center">
-    <img src="Screenshot 2026-05-12 210905.png" width=700>
-    <img src="Screenshot 2026-05-12 210905.png" width=700>
-</div>
-
 Credit to 
 <ul>
     <li>Chia</li>
@@ -18,7 +12,7 @@ Credit to
     <li>Jonny</li>
     <li>Karim</li>
     <li>Kais</li>
-    <li>Mobulu></li>
+    <li>Mobulu</li>
     <li>Oscar</li>
     <li>Tami</li>
     <li>Thomas</li>
