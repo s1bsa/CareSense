@@ -1,0 +1,18 @@
+server:
+  host: "0.0.0.0"
+  port: 8888
+data:
+  directory: "/data"
+  probs_file: "symptom_probabilities.csv"
+  priors_file: "disease_probabilities.csv"
+  alpha: 0.001
+cors:
+  origins: ["*"]
+logic:
+  k_suggestions: 3 # number suggested symptoms returned
+  n_top_diseases: 100 #number diseases compared for suggestion
+  n_diseases_output: 10 #number of diseases returned to front end
+  max_questions_asked: 25 #how long the dialogue can be
+  confidence_threshold: 0.7 #how confident before dialogue ends
+  default_session_id: "demo-session"
+  quick_options: ["yes", "no", "maybe"]

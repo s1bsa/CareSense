@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="548" viewBox="0 0 1200 548">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="32" y="38" font-size="24" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">Scenario Final Rank</text>
+<text x="32" y="64" font-size="13" font-family="Segoe UI, Arial, sans-serif" fill="#475569">Longer bars are better. Values show the actual final rank (lower is better).</text>
+<text x="32" y="113" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">common cold</text>
+<rect x="280" y="99" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="99" width="810.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="112" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 1</text>
+<text x="32" y="147" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">asthma</text>
+<rect x="280" y="133" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="133" width="810.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="146" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 1</text>
+<text x="32" y="181" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">appendicitis</text>
+<rect x="280" y="167" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="167" width="648.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="180" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 2</text>
+<text x="32" y="215" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">migraine</text>
+<rect x="280" y="201" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="201" width="810.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="214" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 1</text>
+<text x="32" y="249" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">urinary tract infection</text>
+<rect x="280" y="235" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="235" width="648.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="248" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 2</text>
+<text x="32" y="283" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">acute bronchitis</text>
+<rect x="280" y="269" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="269" width="810.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="282" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 1</text>
+<text x="32" y="317" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">acute sinusitis</text>
+<rect x="280" y="303" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="303" width="486.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="316" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 3</text>
+<text x="32" y="351" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">diverticulitis</text>
+<rect x="280" y="337" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="337" width="810.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="350" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 1</text>
+<text x="32" y="385" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">gout</text>
+<rect x="280" y="371" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="371" width="648.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="384" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 2</text>
+<text x="32" y="419" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">esophagitis</text>
+<rect x="280" y="405" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="405" width="162.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="418" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 5</text>
+<text x="32" y="453" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">anxiety</text>
+<rect x="280" y="439" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="439" width="648.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="452" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 2</text>
+<text x="32" y="487" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">cystitis</text>
+<rect x="280" y="473" width="810" height="16" rx="8" fill="#e2e8f0"/>
+<rect x="280" y="473" width="648.00" height="16" rx="8" fill="#0f766e"/>
+<text x="1098" y="486" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">rank 2</text>
+</svg>

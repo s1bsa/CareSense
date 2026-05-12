@@ -1,0 +1,775 @@
+disease_name,normalized_name,canonical_name,primary_domain,secondary_domains,confidence,assignment_method,needs_review
+abdominal aortic aneurysm,abdominal aortic aneurysm,abdominal aortic aneurysm,Cardiovascular / Cardiology,[],0.99,exact,False
+abdominal hermia,abdominal hernia,abdominal hernia,Gastroenterology / Hepatology,[],0.99,exact,False
+abscess of nose,abscess of nose,abscess of nose,ENT / Otolaryngology,"[""Infectious Diseases""]",0.99,exact,False
+abscess of the lung,abscess of the lung,abscess of the lung,Respiratory / Pulmonology,"[""Infectious Diseases""]",0.99,exact,False
+abscess of the pharynx,abscess of the pharynx,abscess of the pharynx,ENT / Otolaryngology,"[""Infectious Diseases""]",0.99,exact,False
+acanthosis nigricans,acanthosis nigricans,acanthosis nigricans,Dermatology,"[""Endocrinology""]",0.99,exact,False
+achalasia,achalasia,achalasia,Gastroenterology / Hepatology,[],0.99,exact,False
+acne,acne,acne,Dermatology,[],0.99,exact,False
+actinic keratosis,actinic keratosis,actinic keratosis,Dermatology,"[""Oncology""]",0.99,exact,False
+acute bronchiolitis,acute bronchiolitis,acute bronchiolitis,Respiratory / Pulmonology,"[""Infectious Diseases""]",0.99,exact,False
+"acute bronchitis
+",acute bronchitis,acute bronchitis,Respiratory / Pulmonology,"[""Infectious Diseases""]",0.99,exact,False
+acute bronchospasm,acute bronchospasm,acute bronchospasm,Respiratory / Pulmonology,[],0.99,exact,False
+acute fatty liver of pregnancy,acute fatty liver of pregnancy,acute fatty liver of pregnancy,Gastroenterology / Hepatology,"[""Endocrinology""]",0.99,exact,False
+acute glaucoma,acute glaucoma,acute glaucoma,Ophthalmology,[],0.99,exact,False
+acute kidney injury,acute kidney injury,acute kidney injury,Nephrology,[],0.99,exact,False
+acute otitis media,acute otitis media,acute otitis media,ENT / Otolaryngology,"[""Infectious Diseases""]",0.99,exact,False
+acute pancreatitis,acute pancreatitis,acute pancreatitis,Gastroenterology / Hepatology,[],0.99,exact,False
+acute respiratory distress syndrome,acute respiratory distress syndrome,acute respiratory distress syndrome,Respiratory / Pulmonology,"[""Emergency / Trauma Medicine""]",0.99,exact,False
+acute sinusitis,acute sinusitis,acute sinusitis,ENT / Otolaryngology,"[""Infectious Diseases""]",0.99,exact,False
+acute stress reaction,acute stress reaction,acute stress reaction,Psychiatry,[],0.99,exact,False
+adhesive capsulitis of the shoulder,adhesive capsulitis of the shoulder,adhesive capsulitis of the shoulder,Musculoskeletal,[],0.99,exact,False
+adjustment reaction,adjustment reaction,adjustment reaction,Psychiatry,[],0.99,exact,False
+adrenal adenoma,adrenal adenoma,adrenal adenoma,Endocrinology,"[""Oncology""]",0.99,exact,False
+adrenal cancer,adrenal cancer,adrenal cancer,Oncology,"[""Endocrinology""]",0.99,exact,False
+alcohol abuse,alcohol abuse,alcohol abuse,Psychiatry,[],0.99,exact,False
+alcohol intoxication,alcohol intoxication,alcohol intoxication,Emergency / Trauma Medicine,"[""Psychiatry""]",0.99,exact,False
+alcohol withdrawal,alcohol withdrawal,alcohol withdrawal,Psychiatry,"[""Emergency / Trauma Medicine""]",0.99,exact,False
+alcoholic liver disease,alcoholic liver disease,alcoholic liver disease,Gastroenterology / Hepatology,"[""Psychiatry""]",0.99,exact,False
+allergy,allergy,allergy,Allergy and Immunology,[],0.99,exact,False
+allergy to animals,allergy to animals,allergy to animals,Allergy and Immunology,[],0.99,exact,False
+alopecia,alopecia,alopecia,Dermatology,[],0.99,exact,False
+alzheimer's disease,alzheimers disease,alzheimers disease,Neurology,"[""Psychiatry""]",0.99,exact,False
+amblyopia,amblyopia,amblyopia,Ophthalmology,[],0.99,exact,False
+amyloidosis,amyloidosis,amyloidosis,Hematology,[],0.99,exact,False
+amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,Neurology,[],0.99,exact,False
+anal fissure,anal fissure,anal fissure,Gastroenterology / Hepatology,[],0.99,exact,False
+anal fistula,anal fistula,anal fistula,Gastroenterology / Hepatology,[],0.99,exact,False
+anemia,anemia,,Hematology,[],0.86,rule:hematology,True
+anemia due to chronic kidney disease,anemia due to chronic kidney disease,,Nephrology,[],0.86,rule:nephrology,True
+anemia due to malignancy,anemia due to malignancy,,Hematology,[],0.86,rule:hematology,True
+anemia of chronic disease,anemia of chronic disease,,Hematology,[],0.86,rule:hematology,True
+angina,angina,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+ankylosing spondylitis,ankylosing spondylitis,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+anxiety,anxiety,,Psychiatry,[],0.87,rule:psychiatry,True
+aortic valve disease,aortic valve disease,,Cardiovascular / Cardiology,[],0.78,anatomy:aortic,True
+aphakia,aphakia,,,[],0.0,unresolved,True
+aphthous ulcer,aphthous ulcer,,,[],0.0,unresolved,True
+aplastic anemia,aplastic anemia,,Hematology,[],0.86,rule:hematology,True
+appendicitis,appendicitis,,,[],0.0,unresolved,True
+arrhythmia,arrhythmia,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+arthritis of the hip,arthritis of the hip,,Musculoskeletal,[],0.78,anatomy:hip,True
+ascariasis,ascariasis,ascariasis,Infectious Diseases,"[""Gastroenterology / Hepatology""]",0.99,exact,False
+ascending cholangitis,ascending cholangitis,,,[],0.0,unresolved,True
+asperger syndrome,asperger syndrome,,,[],0.0,unresolved,True
+aspergillosis,aspergillosis,,,[],0.0,unresolved,True
+asthma,asthma,asthma,Respiratory / Pulmonology,[],0.99,exact,False
+astigmatism,astigmatism,,,[],0.0,unresolved,True
+atelectasis,atelectasis,,,[],0.0,unresolved,True
+athlete's foot,athletes foot,,,[],0.0,unresolved,True
+atonic bladder,atonic bladder,,Urology,[],0.78,anatomy:bladder,True
+atrial fibrillation,atrial fibrillation,,,[],0.0,unresolved,True
+atrial flutter,atrial flutter,,,[],0.0,unresolved,True
+atrophic skin condition,atrophic skin condition,,Dermatology,[],0.78,anatomy:skin,True
+atrophic vaginitis,atrophic vaginitis,,,[],0.0,unresolved,True
+atrophy of the corpus cavernosum,atrophy of the corpus cavernosum,,,[],0.0,unresolved,True
+attention deficit hyperactivity disorder ,attention deficit hyperactivity disorder,,,[],0.0,unresolved,True
+autism,autism,,,[],0.0,unresolved,True
+autonomic nervous system disorder,autonomic nervous system disorder,,,[],0.0,unresolved,True
+avascular necrosis,avascular necrosis,,Cardiovascular / Cardiology,[],0.78,anatomy:vascular,True
+balanitis,balanitis,,,[],0.0,unresolved,True
+bell palsy,bell palsy,,,[],0.0,unresolved,True
+benign kidney cyst,benign kidney cyst,,Nephrology,[],0.86,rule:nephrology,True
+benign paroxysmal positional vertical (bppv),benign paroxysmal positional vertical bppv,,,[],0.0,unresolved,True
+benign prostatic hyperplasia (bph),benign prostatic hyperplasia bph,,Urology,[],0.78,anatomy:prostatic,True
+benign vaginal discharge (leukorrhea),benign vaginal discharge leukorrhea,,,[],0.0,unresolved,True
+bipolar disorder,bipolar disorder,,Psychiatry,[],0.87,rule:psychiatry,True
+birth trauma,birth trauma,,,[],0.0,unresolved,True
+bladder cancer,bladder cancer,,Oncology,[],0.86,rule:oncology,True
+bladder disorder,bladder disorder,,Urology,[],0.78,anatomy:bladder,True
+bladder obstruction,bladder obstruction,,Urology,[],0.78,anatomy:bladder,True
+blepharitis,blepharitis,,,[],0.0,unresolved,True
+blepharospasm,blepharospasm,,,[],0.0,unresolved,True
+bone cancer,bone cancer,,Oncology,[],0.86,rule:oncology,True
+bone disorder,bone disorder,,Musculoskeletal,[],0.78,anatomy:bone,True
+bone spur of the calcaneous,bone spur of the calcaneous,,Musculoskeletal,[],0.78,anatomy:bone,True
+brachial neuritis,brachial neuritis,,,[],0.0,unresolved,True
+brain cancer,brain cancer,,Oncology,[],0.86,rule:oncology,True
+breast cancer,breast cancer,breast cancer,Oncology,[],0.99,exact,False
+breast cyst,breast cyst,,,[],0.0,unresolved,True
+breast infection (mastitis),breast infection mastitis,,,[],0.0,unresolved,True
+broken tooth,broken tooth,,,[],0.0,unresolved,True
+bunion,bunion,,,[],0.0,unresolved,True
+burn,burn,,,[],0.0,unresolved,True
+bursitis,bursitis,,,[],0.0,unresolved,True
+callus,callus,,,[],0.0,unresolved,True
+carbon monoxide poisoning,carbon monoxide poisoning,,,[],0.0,unresolved,True
+carcinoid syndrome,carcinoid syndrome,,,[],0.0,unresolved,True
+cardiac arrest,cardiac arrest,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+cardiomyopathy,cardiomyopathy,,,[],0.0,unresolved,True
+carpal tunnel syndrome,carpal tunnel syndrome,,,[],0.0,unresolved,True
+cat scratch disease,cat scratch disease,,,[],0.0,unresolved,True
+cataract,cataract,,Ophthalmology,[],0.86,rule:ophthalmology,True
+celiac disease,celiac disease,,,[],0.0,unresolved,True
+cellulitis or abscess of mouth,cellulitis or abscess of mouth,,,[],0.0,unresolved,True
+central atherosclerosis,central atherosclerosis,,,[],0.0,unresolved,True
+central retinal artery or vein occlusion,central retinal artery or vein occlusion,,Ophthalmology,[],0.78,anatomy:retina,True
+cerebral edema,cerebral edema,,,[],0.0,unresolved,True
+cerebral palsy,cerebral palsy,,,[],0.0,unresolved,True
+cervical cancer,cervical cancer,,Oncology,[],0.86,rule:oncology,True
+cervical disorder,cervical disorder,,,[],0.0,unresolved,True
+cervicitis,cervicitis,,,[],0.0,unresolved,True
+chalazion,chalazion,,,[],0.0,unresolved,True
+chickenpox,chickenpox,,,[],0.0,unresolved,True
+chlamydia,chlamydia,,,[],0.0,unresolved,True
+cholecystitis,cholecystitis,,,[],0.0,unresolved,True
+choledocholithiasis,choledocholithiasis,,,[],0.0,unresolved,True
+cholesteatoma,cholesteatoma,,,[],0.0,unresolved,True
+chondromalacia of the patella,chondromalacia of the patella,,,[],0.0,unresolved,True
+chorioretinitis,chorioretinitis,,,[],0.0,unresolved,True
+chronic back pain,chronic back pain,,,[],0.0,unresolved,True
+chronic constipation,chronic constipation,,,[],0.0,unresolved,True
+chronic glaucoma,chronic glaucoma,,Ophthalmology,[],0.86,rule:ophthalmology,True
+chronic inflammatory demyelinating polyneuropathy (cidp),chronic inflammatory demyelinating polyneuropathy cidp,,Neurology,[],0.87,rule:neurology,True
+chronic kidney disease,chronic kidney disease,chronic kidney disease,Nephrology,[],0.99,exact,False
+chronic knee pain,chronic knee pain,,Musculoskeletal,[],0.78,anatomy:knee,True
+chronic obstructive pulmonary disease (copd),chronic obstructive pulmonary disease copd,,Respiratory / Pulmonology,[],0.87,rule:respiratory,True
+chronic otitis media,chronic otitis media,,ENT / Otolaryngology,[],0.86,rule:ent,True
+chronic pain disorder,chronic pain disorder,,,[],0.0,unresolved,True
+chronic pancreatitis,chronic pancreatitis,,Gastroenterology / Hepatology,[],0.87,rule:gastroenterology,True
+chronic rheumatic fever,chronic rheumatic fever,,,[],0.0,unresolved,True
+chronic sinusitis,chronic sinusitis,,ENT / Otolaryngology,[],0.86,rule:ent,True
+chronic ulcer,chronic ulcer,,,[],0.0,unresolved,True
+cirrhosis,cirrhosis,,Gastroenterology / Hepatology,[],0.87,rule:gastroenterology,True
+coagulation (bleeding) disorder,coagulation bleeding disorder,,,[],0.0,unresolved,True
+cold sore,cold sore,,,[],0.0,unresolved,True
+colonic polyp,colonic polyp,,,[],0.0,unresolved,True
+colorectal cancer,colorectal cancer,,Oncology,[],0.86,rule:oncology,True
+common cold,common cold,,,[],0.0,unresolved,True
+complex regional pain syndrome,complex regional pain syndrome,,,[],0.0,unresolved,True
+concussion,concussion,,,[],0.0,unresolved,True
+conduct disorder,conduct disorder,,,[],0.0,unresolved,True
+conductive hearing loss,conductive hearing loss,,ENT / Otolaryngology,[],0.86,rule:ent,True
+congenital heart defect,congenital heart defect,,ENT / Otolaryngology,[],0.86,rule:ent,True
+congenital malformation syndrome,congenital malformation syndrome,,,[],0.0,unresolved,True
+conjunctivitis,conjunctivitis,,,[],0.0,unresolved,True
+conjunctivitis due to allergy,conjunctivitis due to allergy,,Allergy and Immunology,[],0.89,rule:allergy_immunology,True
+conjunctivitis due to bacteria,conjunctivitis due to bacteria,,,[],0.0,unresolved,True
+conjunctivitis due to virus,conjunctivitis due to virus,,,[],0.0,unresolved,True
+connective tissue disorder,connective tissue disorder,,,[],0.0,unresolved,True
+contact dermatitis,contact dermatitis,,Dermatology,[],0.87,rule:dermatology,True
+conversion disorder,conversion disorder,,,[],0.0,unresolved,True
+cornea infection,cornea infection,,Ophthalmology,[],0.78,anatomy:cornea,True
+corneal abrasion,corneal abrasion,,Ophthalmology,[],0.78,anatomy:cornea,True
+corneal disorder,corneal disorder,,Ophthalmology,[],0.78,anatomy:cornea,True
+coronary atherosclerosis,coronary atherosclerosis,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+cranial nerve palsy,cranial nerve palsy,,Neurology,[],0.78,anatomy:nerve,True
+crohn disease,crohn disease,crohn disease,Gastroenterology / Hepatology,"[""Allergy and Immunology""]",0.99,exact,False
+croup,croup,,,[],0.0,unresolved,True
+crushing injury,crushing injury,,,[],0.0,unresolved,True
+cryptococcosis,cryptococcosis,,,[],0.0,unresolved,True
+cryptorchidism,cryptorchidism,,,[],0.0,unresolved,True
+cushing syndrome,cushing syndrome,,,[],0.0,unresolved,True
+cyst of the eyelid,cyst of the eyelid,,Ophthalmology,[],0.86,rule:ophthalmology,True
+cystic fibrosis,cystic fibrosis,,,[],0.0,unresolved,True
+cysticercosis,cysticercosis,,,[],0.0,unresolved,True
+cystitis,cystitis,,,[],0.0,unresolved,True
+de quervain disease,de quervain disease,,,[],0.0,unresolved,True
+decubitus ulcer,decubitus ulcer,,,[],0.0,unresolved,True
+deep vein thrombosis (dvt),deep vein thrombosis dvt,,,[],0.0,unresolved,True
+degenerative disc disease,degenerative disc disease,,,[],0.0,unresolved,True
+delirium,delirium,,,[],0.0,unresolved,True
+dementia,dementia,,,[],0.0,unresolved,True
+dengue fever,dengue fever,,,[],0.0,unresolved,True
+dental caries,dental caries,,,[],0.0,unresolved,True
+depression,depression,depression,Psychiatry,[],0.99,exact,False
+dermatitis due to sun exposure,dermatitis due to sun exposure,,Dermatology,[],0.87,rule:dermatology,True
+developmental disability,developmental disability,,,[],0.0,unresolved,True
+deviated nasal septum,deviated nasal septum,,ENT / Otolaryngology,[],0.78,anatomy:nasal,True
+diabetes,diabetes,,Endocrinology,[],0.86,rule:diabetes,True
+diabetes insipidus,diabetes insipidus,,Endocrinology,[],0.86,rule:diabetes,True
+diabetic ketoacidosis,diabetic ketoacidosis,,Endocrinology,[],0.86,rule:diabetes,True
+diabetic kidney disease,diabetic kidney disease,,Endocrinology,[],0.86,rule:diabetes,True
+diabetic peripheral neuropathy,diabetic peripheral neuropathy,,Endocrinology,[],0.86,rule:diabetes,True
+diabetic retinopathy,diabetic retinopathy,diabetic retinopathy,Endocrinology,"[""Ophthalmology""]",0.99,exact,False
+diaper rash,diaper rash,,Dermatology,[],0.87,rule:dermatology,True
+dislocation of the ankle,dislocation of the ankle,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the elbow,dislocation of the elbow,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the finger,dislocation of the finger,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the foot,dislocation of the foot,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the hip,dislocation of the hip,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the knee,dislocation of the knee,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the patella,dislocation of the patella,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the shoulder,dislocation of the shoulder,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the vertebra,dislocation of the vertebra,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dislocation of the wrist,dislocation of the wrist,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:dislocation_general,False
+dissociative disorder,dissociative disorder,,,[],0.0,unresolved,True
+diverticulitis,diverticulitis,,,[],0.0,unresolved,True
+diverticulosis,diverticulosis,,,[],0.0,unresolved,True
+down syndrome,down syndrome,,,[],0.0,unresolved,True
+drug abuse,drug abuse,,,[],0.0,unresolved,True
+drug abuse (barbiturates),drug abuse barbiturates,,,[],0.0,unresolved,True
+drug abuse (cocaine),drug abuse cocaine,,,[],0.0,unresolved,True
+drug abuse (methamphetamine),drug abuse methamphetamine,,,[],0.0,unresolved,True
+drug abuse (opioids),drug abuse opioids,,,[],0.0,unresolved,True
+drug poisoning due to medication,drug poisoning due to medication,,,[],0.0,unresolved,True
+drug reaction,drug reaction,,,[],0.0,unresolved,True
+drug withdrawal,drug withdrawal,,,[],0.0,unresolved,True
+dry eye of unknown cause,dry eye of unknown cause,,Ophthalmology,[],0.86,rule:ophthalmology,True
+dumping syndrome,dumping syndrome,,,[],0.0,unresolved,True
+dyshidrosis,dyshidrosis,,,[],0.0,unresolved,True
+dysthymic disorder,dysthymic disorder,,,[],0.0,unresolved,True
+ear drum damage,ear drum damage,,ENT / Otolaryngology,[],0.86,rule:ent,True
+ear wax impaction,ear wax impaction,,ENT / Otolaryngology,[],0.86,rule:ent,True
+eating disorder,eating disorder,,,[],0.0,unresolved,True
+ectopic pregnancy,ectopic pregnancy,,,[],0.0,unresolved,True
+ectropion,ectropion,,,[],0.0,unresolved,True
+eczema,eczema,,Dermatology,[],0.87,rule:dermatology,True
+edward syndrome,edward syndrome,,,[],0.0,unresolved,True
+emphysema,emphysema,,Respiratory / Pulmonology,[],0.87,rule:respiratory,True
+empyema,empyema,,,[],0.0,unresolved,True
+encephalitis,encephalitis,,,[],0.0,unresolved,True
+endocarditis,endocarditis,,,[],0.0,unresolved,True
+endometrial cancer,endometrial cancer,,Oncology,[],0.86,rule:oncology,True
+endometrial hyperplasia,endometrial hyperplasia,,,[],0.0,unresolved,True
+endometriosis,endometriosis,endometriosis,Gastroenterology / Hepatology,[],0.99,exact,False
+endophthalmitis,endophthalmitis,,,[],0.0,unresolved,True
+envenomation from spider or animal bite,envenomation from spider or animal bite,,,[],0.0,unresolved,True
+ependymoma,ependymoma,,,[],0.0,unresolved,True
+epididymitis,epididymitis,,,[],0.0,unresolved,True
+epidural hemorrhage,epidural hemorrhage,,,[],0.0,unresolved,True
+epilepsy,epilepsy,epilepsy,Neurology,[],0.99,exact,False
+erectile dysfunction,erectile dysfunction,,,[],0.0,unresolved,True
+erythema multiforme,erythema multiforme,,,[],0.0,unresolved,True
+esophageal cancer,esophageal cancer,,Oncology,[],0.86,rule:oncology,True
+esophageal varices,esophageal varices,,Gastroenterology / Hepatology,[],0.78,anatomy:esoph,True
+esophagitis,esophagitis,,Gastroenterology / Hepatology,[],0.78,anatomy:esoph,True
+essential tremor,essential tremor,,,[],0.0,unresolved,True
+eustachian tube dysfunction (ear disorder),eustachian tube dysfunction ear disorder,,ENT / Otolaryngology,[],0.86,rule:ent,True
+extrapyramidal effect of drugs,extrapyramidal effect of drugs,,,[],0.0,unresolved,True
+eye alignment disorder,eye alignment disorder,,Ophthalmology,[],0.86,rule:ophthalmology,True
+factitious disorder,factitious disorder,,,[],0.0,unresolved,True
+female genitalia infection,female genitalia infection,,,[],0.0,unresolved,True
+female infertility of unknown cause,female infertility of unknown cause,,,[],0.0,unresolved,True
+fetal alcohol syndrome,fetal alcohol syndrome,,,[],0.0,unresolved,True
+fibroadenoma,fibroadenoma,,Oncology,[],0.86,rule:oncology,True
+fibrocystic breast disease,fibrocystic breast disease,,,[],0.0,unresolved,True
+fibromyalgia,fibromyalgia,,,[],0.0,unresolved,True
+flat feet,flat feet,,,[],0.0,unresolved,True
+floaters,floaters,,,[],0.0,unresolved,True
+flu,flu,,,[],0.0,unresolved,True
+fluid overload,fluid overload,,,[],0.0,unresolved,True
+folate deficiency,folate deficiency,,,[],0.0,unresolved,True
+food allergy,food allergy,,Allergy and Immunology,[],0.89,rule:allergy_immunology,True
+foreign body in the ear,foreign body in the ear,,ENT / Otolaryngology,"[""Emergency / Trauma Medicine""]",0.96,pattern:foreign_body_ear,False
+foreign body in the eye,foreign body in the eye,,Ophthalmology,"[""Emergency / Trauma Medicine""]",0.96,pattern:foreign_body_eye,False
+foreign body in the gastrointestinal tract,foreign body in the gastrointestinal tract,,Gastroenterology / Hepatology,"[""Emergency / Trauma Medicine""]",0.96,pattern:foreign_body_gi,False
+foreign body in the nose,foreign body in the nose,,ENT / Otolaryngology,"[""Emergency / Trauma Medicine""]",0.93,pattern:foreign_body_default,True
+foreign body in the throat,foreign body in the throat,,ENT / Otolaryngology,"[""Emergency / Trauma Medicine""]",0.93,pattern:foreign_body_default,True
+foreign body in the vagina,foreign body in the vagina,,,"[""Emergency / Trauma Medicine""]",0.93,pattern:foreign_body_default,True
+fracture of the ankle,fracture of the ankle,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the arm,fracture of the arm,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the facial bones,fracture of the facial bones,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the finger,fracture of the finger,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the foot,fracture of the foot,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the hand,fracture of the hand,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the jaw,fracture of the jaw,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the leg,fracture of the leg,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the neck,fracture of the neck,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the patella,fracture of the patella,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the pelvis,fracture of the pelvis,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the rib,fracture of the rib,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the shoulder,fracture of the shoulder,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the skull,fracture of the skull,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+fracture of the vertebra,fracture of the vertebra,,Musculoskeletal,"[""Emergency / Trauma Medicine""]",0.98,pattern:fracture_general,False
+friedrich ataxia,friedrich ataxia,,,[],0.0,unresolved,True
+frostbite,frostbite,,,[],0.0,unresolved,True
+fungal infection of the hair,fungal infection of the hair,,Dermatology,"[""Infectious Diseases""]",0.95,pattern:fungal_infection_skin,False
+fungal infection of the skin,fungal infection of the skin,,Dermatology,"[""Infectious Diseases""]",0.95,pattern:fungal_infection_skin,False
+g6pd enzyme deficiency,g6pd enzyme deficiency,,,[],0.0,unresolved,True
+galactorrhea of unknown cause,galactorrhea of unknown cause,,,[],0.0,unresolved,True
+gallstone,gallstone,,,[],0.0,unresolved,True
+ganglion cyst,ganglion cyst,,,[],0.0,unresolved,True
+gas gangrene,gas gangrene,,,[],0.0,unresolved,True
+gastritis,gastritis,,Gastroenterology / Hepatology,[],0.87,rule:gastroenterology,True
+gastroduodenal ulcer,gastroduodenal ulcer,,,[],0.0,unresolved,True
+gastroesophageal reflux disease (gerd),gastroesophageal reflux disease gerd,,Gastroenterology / Hepatology,[],0.78,anatomy:esoph,True
+gastrointestinal hemorrhage,gastrointestinal hemorrhage,,Gastroenterology / Hepatology,[],0.78,anatomy:intestinal,True
+gastroparesis,gastroparesis,,,[],0.0,unresolved,True
+genital herpes,genital herpes,,,[],0.0,unresolved,True
+gestational diabetes,gestational diabetes,,Endocrinology,[],0.86,rule:diabetes,True
+glaucoma,glaucoma,,Ophthalmology,[],0.86,rule:ophthalmology,True
+glucocorticoid deficiency,glucocorticoid deficiency,,,[],0.0,unresolved,True
+goiter,goiter,,,[],0.0,unresolved,True
+gonorrhea,gonorrhea,,,[],0.0,unresolved,True
+gout,gout,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+granuloma inguinale,granuloma inguinale,,,[],0.0,unresolved,True
+graves disease,graves disease,,,[],0.0,unresolved,True
+guillain barre syndrome,guillain barre syndrome,,,[],0.0,unresolved,True
+gum disease,gum disease,,,[],0.0,unresolved,True
+gynecomastia,gynecomastia,,,[],0.0,unresolved,True
+hammer toe,hammer toe,,,[],0.0,unresolved,True
+hashimoto thyroiditis,hashimoto thyroiditis,,Endocrinology,[],0.86,rule:diabetes,True
+head and neck cancer,head and neck cancer,,Oncology,[],0.86,rule:oncology,True
+head injury,head injury,,,[],0.0,unresolved,True
+headache after lumbar puncture,headache after lumbar puncture,,,[],0.0,unresolved,True
+heart attack,heart attack,myocardial infarction,Cardiovascular / Cardiology,[],0.98,alias,False
+heart block,heart block,,ENT / Otolaryngology,[],0.86,rule:ent,True
+heart contusion,heart contusion,,ENT / Otolaryngology,[],0.86,rule:ent,True
+heart failure,heart failure,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+heat exhaustion,heat exhaustion,,,[],0.0,unresolved,True
+heat stroke,heat stroke,,Neurology,[],0.87,rule:neurology,True
+hemangioma,hemangioma,,,[],0.0,unresolved,True
+hemarthrosis,hemarthrosis,,,[],0.0,unresolved,True
+hematoma,hematoma,,Hematology,[],0.78,anatomy:hemat,True
+hemiplegia,hemiplegia,,,[],0.0,unresolved,True
+hemochromatosis,hemochromatosis,,,[],0.0,unresolved,True
+hemolytic anemia,hemolytic anemia,,Hematology,[],0.86,rule:hematology,True
+hemophilia,hemophilia,,Hematology,[],0.86,rule:hematology,True
+hemorrhoids,hemorrhoids,,,[],0.0,unresolved,True
+hepatic encephalopathy,hepatic encephalopathy,,Gastroenterology / Hepatology,[],0.78,anatomy:hepatic,True
+hepatitis due to a toxin,hepatitis due to a toxin,,Gastroenterology / Hepatology,[],0.87,rule:gastroenterology,True
+herniated disk,herniated disk,,,[],0.0,unresolved,True
+herpangina,herpangina,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+hiatal hernia,hiatal hernia,,,[],0.0,unresolved,True
+hidradenitis suppurativa,hidradenitis suppurativa,,,[],0.0,unresolved,True
+high blood pressure,high blood pressure,hypertension,Cardiovascular / Cardiology,"[""Nephrology""]",0.98,alias,False
+hirschsprung disease,hirschsprung disease,,,[],0.0,unresolved,True
+hirsutism,hirsutism,,,[],0.0,unresolved,True
+histoplasmosis,histoplasmosis,,,[],0.0,unresolved,True
+hormone disorder,hormone disorder,,,[],0.0,unresolved,True
+hpv,hpv,,,[],0.0,unresolved,True
+human immunodeficiency virus infection (hiv),human immunodeficiency virus infection hiv,,Allergy and Immunology,[],0.89,rule:allergy_immunology,True
+huntington disease,huntington disease,,,[],0.0,unresolved,True
+hydatidiform mole,hydatidiform mole,,,[],0.0,unresolved,True
+hydrocele of the testicle,hydrocele of the testicle,,,[],0.0,unresolved,True
+hydrocephalus,hydrocephalus,,,[],0.0,unresolved,True
+hydronephrosis,hydronephrosis,,Nephrology,[],0.86,rule:nephrology,True
+hypercalcemia,hypercalcemia,,,[],0.0,unresolved,True
+hypercholesterolemia,hypercholesterolemia,,,[],0.0,unresolved,True
+hyperemesis gravidarum,hyperemesis gravidarum,,,[],0.0,unresolved,True
+hypergammaglobulinemia,hypergammaglobulinemia,,,[],0.0,unresolved,True
+hyperhidrosis,hyperhidrosis,,,[],0.0,unresolved,True
+hyperkalemia,hyperkalemia,,,[],0.0,unresolved,True
+hyperlipidemia,hyperlipidemia,,,[],0.0,unresolved,True
+hypernatremia,hypernatremia,,,[],0.0,unresolved,True
+hyperopia,hyperopia,,,[],0.0,unresolved,True
+hyperosmotic hyperketotic state,hyperosmotic hyperketotic state,,,[],0.0,unresolved,True
+hypertension of pregnancy,hypertension of pregnancy,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+hypertensive heart disease,hypertensive heart disease,,ENT / Otolaryngology,[],0.86,rule:ent,True
+hypertrophic obstructive cardiomyopathy (hocm),hypertrophic obstructive cardiomyopathy hocm,,,[],0.0,unresolved,True
+hypocalcemia,hypocalcemia,,,[],0.0,unresolved,True
+hypoglycemia,hypoglycemia,,,[],0.0,unresolved,True
+hypokalemia,hypokalemia,,,[],0.0,unresolved,True
+hyponatremia,hyponatremia,,,[],0.0,unresolved,True
+hypothermia,hypothernia,,,[],0.0,unresolved,True
+hypothyroidism,hypothyroidism,,Endocrinology,[],0.86,rule:diabetes,True
+hypovolemia,hypovolemia,,,[],0.0,unresolved,True
+idiopathic absence of menstruation,idiopathic absence of menstruation,,,[],0.0,unresolved,True
+idiopathic excessive menstruation,idiopathic excessive menstruation,,,[],0.0,unresolved,True
+idiopathic infrequent menstruation,idiopathic infrequent menstruation,,,[],0.0,unresolved,True
+idiopathic irregular menstrual cycle,idiopathic irregular menstrual cycle,,,[],0.0,unresolved,True
+idiopathic nonmenstrual bleeding,idiopathic nonmenstrual bleeding,,,[],0.0,unresolved,True
+idiopathic painful menstruation,idiopathic painful menstruation,,,[],0.0,unresolved,True
+ileus,ileus,,,[],0.0,unresolved,True
+impetigo,impetigo,,,[],0.0,unresolved,True
+impulse control disorder,impulse control disorder,,,[],0.0,unresolved,True
+indigestion,indigestion,,,[],0.0,unresolved,True
+induced abortion,induced abortion,,,[],0.0,unresolved,True
+infection of open wound,infection of open wound,,,[],0.0,unresolved,True
+infectious gastroenteritis,infectious gastroenteritis,,,[],0.0,unresolved,True
+ingrown toe nail,ingrown toe nail,,Dermatology,[],0.78,anatomy:nail,True
+inguinal hernia,inguinal hernia,,,[],0.0,unresolved,True
+injury of the ankle,injury of the ankle,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to internal organ,injury of internal organ,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the abdomen,injury of the abdomen,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the arm,injury of the arm,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the face,injury of the face,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the finger,injury of the finger,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the hand,injury of the hand,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the hip,injury of the hip,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the knee,injury of the knee,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the leg,injury of the leg,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the shoulder,injury of the shoulder,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the spinal cord,injury of the spinal cord,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+injury to the trunk,injury of the trunk,,Emergency / Trauma Medicine,[],0.97,pattern:injury_general,False
+insect bite,insect bite,,,[],0.0,unresolved,True
+insulin overdose,insulin overdose,,,[],0.0,unresolved,True
+interstitial lung disease,interstitial lung disease,,Respiratory / Pulmonology,[],0.78,anatomy:lung,True
+intertrigo (skin condition),intertrigo skin condition,,Dermatology,[],0.78,anatomy:skin,True
+intestinal cancer,intestinal cancer,,Oncology,[],0.86,rule:oncology,True
+intestinal disease,intestinal disease,,Gastroenterology / Hepatology,[],0.78,anatomy:intestinal,True
+intestinal malabsorption,intestinal malabsorption,,Gastroenterology / Hepatology,[],0.78,anatomy:intestinal,True
+intestinal obstruction,intestinal obstruction,,Gastroenterology / Hepatology,[],0.78,anatomy:intestinal,True
+intracerebral hemorrhage,intracerebral hemorrhage,,,[],0.0,unresolved,True
+intracranial abscess,intracranial abscess,,,[],0.0,unresolved,True
+intracranial hemorrhage,intracranial hemorrhage,,,[],0.0,unresolved,True
+intussusception,intussusception,,,[],0.0,unresolved,True
+iridocyclitis,iridocyclitis,,,[],0.0,unresolved,True
+iron deficiency anemia,iron deficiency anemia,,Hematology,[],0.86,rule:hematology,True
+irritable bowel syndrome,irritable bowel syndrome,,Gastroenterology / Hepatology,[],0.78,anatomy:bowel,True
+ischemia of the bowel,ischemia of the bowel,,Gastroenterology / Hepatology,[],0.78,anatomy:bowel,True
+ischemic heart disease,ischemic heart disease,,ENT / Otolaryngology,[],0.86,rule:ent,True
+itching of unknown cause,itching of unknown cause,,,[],0.0,unresolved,True
+jaw disorder,jaw disorder,,,[],0.0,unresolved,True
+joint effusion,joint effusion,,Musculoskeletal,[],0.78,anatomy:joint,True
+juvenile rheumatoid arthritis,juvenile rheumatoid arthritis,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+kaposi sarcoma,kaposi sarcoma,,,[],0.0,unresolved,True
+kidney cancer,kidney cancer,,Oncology,[],0.86,rule:oncology,True
+kidney disease due to longstanding hypertension,kidney disease due to longstanding hypertension,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+kidney failure,kidney failure,,Nephrology,[],0.86,rule:nephrology,True
+kidney stone,kidney stone,,Nephrology,[],0.86,rule:nephrology,True
+knee ligament or meniscus tear,knee ligament or meniscus tear,,ENT / Otolaryngology,[],0.86,rule:ent,True
+labyrinthitis,labyrinthitis,,,[],0.0,unresolved,True
+lactose intolerance,lactose intolerance,,,[],0.0,unresolved,True
+laryngitis,laryngitis,,ENT / Otolaryngology,[],0.86,rule:ent,True
+lateral epicondylitis (tennis elbow),lateral epicondylitis tennis elbow,,Musculoskeletal,[],0.78,anatomy:elbow,True
+leukemia,leukemia,,Oncology,[],0.86,rule:oncology,True
+lewy body dementia,lewy body dementia,,,[],0.0,unresolved,True
+lice,lice,,,[],0.0,unresolved,True
+lichen planus,lichen planus,,,[],0.0,unresolved,True
+lichen simplex,lichen simplex,,,[],0.0,unresolved,True
+lipoma,lipoma,,,[],0.0,unresolved,True
+liver cancer,liver cancer,,Oncology,[],0.86,rule:oncology,True
+liver disease,liver disease,,Gastroenterology / Hepatology,[],0.87,rule:gastroenterology,True
+lumbago,lumbago,,,[],0.0,unresolved,True
+lung cancer,lung cancer,,Oncology,[],0.86,rule:oncology,True
+lung contusion,lung contusion,,Respiratory / Pulmonology,[],0.78,anatomy:lung,True
+lyme disease,lyme disease,,,[],0.0,unresolved,True
+lymphadenitis,lymphadenitis,,,[],0.0,unresolved,True
+lymphangitis,lymphangitis,,,[],0.0,unresolved,True
+lymphedema,lymphedema,,,[],0.0,unresolved,True
+lymphogranuloma venereum,lymphogranuloma venereum,,,[],0.0,unresolved,True
+lymphoma,lymphoma,,Oncology,[],0.86,rule:oncology,True
+macular degeneration,macular degeneration,,Ophthalmology,[],0.86,rule:ophthalmology,True
+magnesium deficiency,magnesium deficiency,,,[],0.0,unresolved,True
+malaria,malaria,,,[],0.0,unresolved,True
+male genitalia infection,male genitalia infection,,,[],0.0,unresolved,True
+malignant hypertension,malignant hypertension,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+marijuana abuse,marijuana abuse,,,[],0.0,unresolved,True
+mastectomy,mastectomy,,,[],0.0,unresolved,True
+mastoiditis,mastoiditis,,,[],0.0,unresolved,True
+meckel diverticulum,meckel diverticulum,,,[],0.0,unresolved,True
+melanoma,melanoma,,Oncology,[],0.86,rule:oncology,True
+meniere disease,meniere disease,,,[],0.0,unresolved,True
+meningioma,meningioma,,,[],0.0,unresolved,True
+meningitis,meningitis,,,[],0.0,unresolved,True
+menopause,menopause,,,[],0.0,unresolved,True
+metabolic disorder,metabolic disorder,,,[],0.0,unresolved,True
+metastatic cancer,metastatic cancer,,Oncology,[],0.86,rule:oncology,True
+migraine,migraine,,Neurology,[],0.87,rule:neurology,True
+missed abortion,missed abortion,,,[],0.0,unresolved,True
+mitral valve disease,mitral valve disease,,,[],0.0,unresolved,True
+mittelschmerz,mittelschmerz,,,[],0.0,unresolved,True
+molluscum contagiosum,molluscum contagiosum,,,[],0.0,unresolved,True
+mononeuritis,mononeuritis,,,[],0.0,unresolved,True
+mononucleosis,mononucleosis,,,[],0.0,unresolved,True
+moyamoya disease,moyamoya disease,,,[],0.0,unresolved,True
+mucositis,mucositis,,,[],0.0,unresolved,True
+multiple myeloma,multiple myeloma,,,[],0.0,unresolved,True
+multiple sclerosis,multiple sclerosis,,Neurology,[],0.87,rule:neurology,True
+mumps,mumps,,,[],0.0,unresolved,True
+muscle spasm,muscle spasm,,Musculoskeletal,[],0.78,anatomy:muscle,True
+muscular dystrophy,muscular dystrophy,,,[],0.0,unresolved,True
+myasthenia gravis,myasthenia gravis,,,[],0.0,unresolved,True
+myelodysplastic syndrome,myelodysplastic syndrome,,,[],0.0,unresolved,True
+myocarditis,myocarditis,,,[],0.0,unresolved,True
+myoclonus,myoclonus,,,[],0.0,unresolved,True
+myopia,myopia,,,[],0.0,unresolved,True
+myositis,myositis,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+narcolepsy,narcolepsy,,,[],0.0,unresolved,True
+nasal polyp,nasal polyp,,ENT / Otolaryngology,[],0.78,anatomy:nasal,True
+necrotizing fasciitis,necrotizing fasciitis,,,[],0.0,unresolved,True
+neonatal jaundice,neonatal jaundice,,,[],0.0,unresolved,True
+nerve impingement near the shoulder,nerve impingement near the shoulder,,ENT / Otolaryngology,[],0.86,rule:ent,True
+neuralgia,neuralgia,,,[],0.0,unresolved,True
+neurofibromatosis,neurofibromatosis,,Neurology,[],0.78,anatomy:neuro,True
+neuropathy due to drugs,neuropathy due to drugs,,Neurology,[],0.87,rule:neurology,True
+neurosis,neurosis,,Neurology,[],0.78,anatomy:neuro,True
+nonalcoholic liver disease (nash),nonalcoholic liver disease nash,,Gastroenterology / Hepatology,[],0.87,rule:gastroenterology,True
+noninfectious gastroenteritis,noninfectious gastroenteritis,,,[],0.0,unresolved,True
+normal pressure hydrocephalus,normal pressure hydrocephalus,,,[],0.0,unresolved,True
+nose disorder,nose disorder,,ENT / Otolaryngology,[],0.86,rule:ent,True
+obesity,obesity,,,[],0.0,unresolved,True
+obsessive compulsive disorder (ocd),obsessive compulsive disorder ocd,,Psychiatry,[],0.87,rule:psychiatry,True
+obstructive sleep apnea (osa),obstructive sleep apnea osa,,,[],0.0,unresolved,True
+omphalitis,omphalitis,,,[],0.0,unresolved,True
+onychomycosis,onychomycosis,,,[],0.0,unresolved,True
+open wound due to trauma,open wound due to trauma,,,[],0.0,unresolved,True
+open wound from surgical incision,open wound of surgical incision,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the abdomen,open wound of the abdomen,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the arm,open wound of the arm,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the back,open wound of the back,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the cheek,open wound of the cheek,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the chest,open wound of the chest,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the ear,open wound of the ear,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the eye,open wound of the eye,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the face,open wound of the face,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the finger,open wound of the finger,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the foot,open wound of the foot,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the hand,open wound of the hand,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the head,open wound of the head,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the jaw,open wound of the jaw,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the knee,open wound of the knee,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the lip,open wound of the lip,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the mouth,open wound of the mouth,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the neck,open wound of the neck,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the nose,open wound of the nose,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+open wound of the shoulder,open wound of the shoulder,,Emergency / Trauma Medicine,[],0.97,pattern:open_wound_general,False
+oppositional disorder,oppositional disorder,,,[],0.0,unresolved,True
+optic neuritis,optic neuritis,,,[],0.0,unresolved,True
+oral leukoplakia,oral leukoplakia,,,[],0.0,unresolved,True
+oral mucosal lesion,oral mucosal lesion,,,[],0.0,unresolved,True
+oral thrush (yeast infection),oral thrush yeast infection,,,[],0.0,unresolved,True
+orbital cellulitis,orbital cellulitis,,,[],0.0,unresolved,True
+orthostatic hypotension,orthostatic hypotension,,,[],0.0,unresolved,True
+osteoarthritis,osteoarthritis,,,[],0.0,unresolved,True
+osteochondroma,osteochondroma,,,[],0.0,unresolved,True
+osteochondrosis,osteochondrosis,,,[],0.0,unresolved,True
+osteomyelitis,osteomyelitis,,,[],0.0,unresolved,True
+osteoporosis,osteoporosis,,,[],0.0,unresolved,True
+otitis externa (swimmer's ear),otitis externa swimmers ear,,ENT / Otolaryngology,[],0.86,rule:ent,True
+otitis media,otitis media,,ENT / Otolaryngology,[],0.86,rule:ent,True
+otosclerosis,otosclerosis,,,[],0.0,unresolved,True
+ovarian cancer,ovarian cancer,,Oncology,[],0.86,rule:oncology,True
+ovarian cyst,ovarian cyst,,,[],0.0,unresolved,True
+ovarian torsion,ovarian torsion,,,[],0.0,unresolved,True
+overflow incontinence,overflow incontinence,,,[],0.0,unresolved,True
+pain after an operation,pain after an operation,,,[],0.0,unresolved,True
+pain disorder affecting the neck,pain disorder affecting the neck,,,[],0.0,unresolved,True
+pancreatic cancer,pancreatic cancer,,Oncology,[],0.86,rule:oncology,True
+panic attack,panic attack,,,[],0.0,unresolved,True
+panic disorder,panic disorder,,,[],0.0,unresolved,True
+parasitic disease,parasitic disease,,,[],0.0,unresolved,True
+parathyroid adenoma,parathyroid adenoma,,Endocrinology,[],0.86,rule:diabetes,True
+parkinson disease,parkinson disease,,Neurology,[],0.87,rule:neurology,True
+paronychia,paronychia,,,[],0.0,unresolved,True
+paroxysmal supraventricular tachycardia,paroxysmal supraventricular tachycardia,,,[],0.0,unresolved,True
+paroxysmal ventricular tachycardia,paroxysmal ventricular tachycardia,,,[],0.0,unresolved,True
+pelvic fistula,pelvic fistula,,,[],0.0,unresolved,True
+pelvic inflammatory disease,pelvic inflammatory disease,,,[],0.0,unresolved,True
+pelvic organ prolapse,pelvic organ prolapse,,,[],0.0,unresolved,True
+pemphigus,pemphigus,,,[],0.0,unresolved,True
+pericarditis,pericarditis,,,[],0.0,unresolved,True
+peripheral arterial disease,peripheral arterial disease,,,[],0.0,unresolved,True
+peripheral arterial embolism,peripheral arterial embolism,,,[],0.0,unresolved,True
+peripheral nerve disorder,peripheral nerve disorder,,Neurology,[],0.78,anatomy:nerve,True
+perirectal infection,perirectal infection,,Gastroenterology / Hepatology,[],0.78,anatomy:rectal,True
+peritonitis,peritonitis,,,[],0.0,unresolved,True
+peritonsillar abscess,peritonsillar abscess,,ENT / Otolaryngology,[],0.78,anatomy:tonsil,True
+persistent vomiting of unknown cause,persistent vomiting of unknown cause,,,[],0.0,unresolved,True
+personality disorder,personality disorder,,,[],0.0,unresolved,True
+peyronie disease,peyronie disease,,,[],0.0,unresolved,True
+pharyngitis,pharyngitis,,ENT / Otolaryngology,[],0.86,rule:ent,True
+phimosis,phimosis,,,[],0.0,unresolved,True
+pilonidal cyst,pilonidal cyst,,,[],0.0,unresolved,True
+pinguecula,pinguecula,,,[],0.0,unresolved,True
+pinworm infection,pinworm infection,,,[],0.0,unresolved,True
+pituitary adenoma,pituitary adenoma,,Endocrinology,[],0.86,rule:diabetes,True
+pituitary disorder,pituitary disorder,,Endocrinology,[],0.86,rule:diabetes,True
+pityriasis rosea,pityriasis rosea,,,[],0.0,unresolved,True
+placenta previa,placenta previa,,,[],0.0,unresolved,True
+placental abruption,placental abruption,,,[],0.0,unresolved,True
+plantar fasciitis,plantar fasciitis,,,[],0.0,unresolved,True
+pleural effusion,pleural effusion,,Respiratory / Pulmonology,[],0.78,anatomy:pleura,True
+pneumoconiosis,pneumoconiosis,,,[],0.0,unresolved,True
+pneumonia,pneumonia,,Respiratory / Pulmonology,[],0.87,rule:respiratory,True
+pneumothorax,pneumothorax,,,[],0.0,unresolved,True
+poisoning due to analgesics,poisoning due to analgesics,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to anticonvulsants,poisoning due to anticonvulsants,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to antidepressants,poisoning due to antidepressants,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to antihypertensives,poisoning due to antihypertensives,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to antimicrobial drugs,poisoning due to antimicrobial drugs,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to antipsychotics,poisoning due to antipsychotics,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to ethylene glycol,poisoning due to ethylene glycol,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to gas,poisoning due to gas,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to opioids,poisoning due to opioids,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+poisoning due to sedatives,poisoning due to sedatives,,Emergency / Trauma Medicine,[],0.99,pattern:poisoning_due_to,False
+polycystic kidney disease,polycystic kidney disease,,Nephrology,[],0.86,rule:nephrology,True
+polycystic ovarian syndrome (pcos),polycystic ovarian syndrome pcos,,,[],0.0,unresolved,True
+polycythemia vera,polycythemia vera,,,[],0.0,unresolved,True
+polymyalgia rheumatica,polymyalgia rheumatica,,,[],0.0,unresolved,True
+post-traumatic stress disorder (ptsd),post-traumatic stress disorder ptsd,,Psychiatry,[],0.87,rule:psychiatry,True
+postoperative infection,postoperative infection,,,[],0.0,unresolved,True
+postpartum depression,postpartum depression,,Psychiatry,[],0.87,rule:psychiatry,True
+preeclampsia,preeclampsia,,,[],0.0,unresolved,True
+pregnancy,pregnancy,,,[],0.0,unresolved,True
+premature atrial contractions (pacs),premature atrial contractions pacs,,,[],0.0,unresolved,True
+premature ovarian failure,premature ovarian failure,,,[],0.0,unresolved,True
+premature rupture of amniotic membrane,premature rupture of amniotic membrane,,,[],0.0,unresolved,True
+premature ventricular contractions (pvcs),premature ventricular contractions pvcs,,,[],0.0,unresolved,True
+premenstrual tension syndrome,premenstrual tension syndrome,,,[],0.0,unresolved,True
+presbyacusis,presbyacusis,,,[],0.0,unresolved,True
+presbyopia,presbyopia,,,[],0.0,unresolved,True
+priapism,priapism,,,[],0.0,unresolved,True
+primary immunodeficiency,primary immunodeficiency,,Allergy and Immunology,[],0.89,rule:allergy_immunology,True
+primary insomnia,primary insomnia,,,[],0.0,unresolved,True
+primary kidney disease,primary kidney disease,,Nephrology,[],0.86,rule:nephrology,True
+primary thrombocythemia,primary thrombocythemia,,,[],0.0,unresolved,True
+problem during pregnancy,problem during pregnancy,,,[],0.0,unresolved,True
+prostate cancer,prostate cancer,,Oncology,[],0.86,rule:oncology,True
+prostatitis,prostatitis,,,[],0.0,unresolved,True
+protein deficiency,protein deficiency,,,[],0.0,unresolved,True
+pseudohypoparathyroidism,pseudohypoparathyroidism,,Endocrinology,[],0.86,rule:diabetes,True
+pseudotumor cerebri,pseudotumor cerebri,,Oncology,[],0.86,rule:oncology,True
+psoriasis,psoriasis,psoriasis,Dermatology,"[""Allergy and Immunology""]",0.99,exact,False
+psychosexual disorder,psychosexual disorder,,,[],0.0,unresolved,True
+psychotic disorder,psychotic disorder,,,[],0.0,unresolved,True
+pterygium,pterygium,,,[],0.0,unresolved,True
+pulmonary congestion,pulmonary congestion,,Respiratory / Pulmonology,[],0.87,rule:respiratory,True
+pulmonary embolism,pulmonary embolism,,Respiratory / Pulmonology,[],0.87,rule:respiratory,True
+pulmonary eosinophilia,pulmonary eosinophilia,,Respiratory / Pulmonology,[],0.87,rule:respiratory,True
+pulmonary fibrosis,pulmonary fibrosis,,Respiratory / Pulmonology,[],0.87,rule:respiratory,True
+pulmonary hypertension,pulmonary hypertension,,Respiratory / Pulmonology,[],0.87,rule:respiratory,True
+pulmonic valve disease,pulmonic valve disease,,,[],0.0,unresolved,True
+pyelonephritis,pyelonephritis,,Nephrology,[],0.78,anatomy:nephr,True
+pyloric stenosis,pyloric stenosis,,,[],0.0,unresolved,True
+pyogenic skin infection,pyogenic skin infection,,Dermatology,[],0.78,anatomy:skin,True
+raynaud disease,raynaud disease,,,[],0.0,unresolved,True
+reactive arthritis,reactive arthritis,,,[],0.0,unresolved,True
+rectal disorder,rectal disorder,,Gastroenterology / Hepatology,[],0.78,anatomy:rectal,True
+restless leg syndrome,restless leg syndrome,,,[],0.0,unresolved,True
+retinal detachment,retinal detachment,,Ophthalmology,[],0.78,anatomy:retina,True
+retinopathy due to high blood pressure,retinopathy due to high blood pressure,,Ophthalmology,[],0.86,rule:ophthalmology,True
+rhabdomyolysis,rhabdomyolysis,,,[],0.0,unresolved,True
+rheumatic fever,rheumatic fever,,,[],0.0,unresolved,True
+rheumatoid arthritis,rheumatoid arthritis,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+rocky mountain spotted fever,rocky mountain spotted fever,,,[],0.0,unresolved,True
+rosacea,rosacea,,,[],0.0,unresolved,True
+rotator cuff injury,rotator cuff injury,,,[],0.0,unresolved,True
+salivary gland disorder,salivary gland disorder,,,[],0.0,unresolved,True
+sarcoidosis,sarcoidosis,,,[],0.0,unresolved,True
+scabies,scabies,,,[],0.0,unresolved,True
+scar,scar,,,[],0.0,unresolved,True
+scarlet fever,scarlet fever,,,[],0.0,unresolved,True
+schizophrenia,schizophrenia,,Psychiatry,[],0.87,rule:psychiatry,True
+sciatica,sciatica,,,[],0.0,unresolved,True
+scleritis,scleritis,,,[],0.0,unresolved,True
+scleroderma,scleroderma,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+scoliosis,scoliosis,,,[],0.0,unresolved,True
+scurvy,scurvy,,,[],0.0,unresolved,True
+seasonal allergies (hay fever),seasonal allergies hay fever,,,[],0.0,unresolved,True
+sebaceous cyst,sebaceous cyst,,,[],0.0,unresolved,True
+seborrheic dermatitis,seborrheic dermatitis,,Dermatology,[],0.87,rule:dermatology,True
+seborrheic keratosis,seborrheic keratosis,,Dermatology,[],0.87,rule:dermatology,True
+sensorineural hearing loss,sensorineural hearing loss,,ENT / Otolaryngology,[],0.86,rule:ent,True
+sepsis,sepsis,,,[],0.0,unresolved,True
+septic arthritis,septic arthritis,,,[],0.0,unresolved,True
+shingles (herpes zoster),shingles herpes zoster,,,[],0.0,unresolved,True
+sialoadenitis,sialoadenitis,,,[],0.0,unresolved,True
+sick sinus syndrome,sick sinus syndrome,,ENT / Otolaryngology,[],0.78,anatomy:sinus,True
+sickle cell anemia,sickle cell anemia,,Hematology,[],0.86,rule:hematology,True
+sickle cell crisis,sickle cell crisis,,Hematology,[],0.86,rule:hematology,True
+sinus bradycardia,sinus bradycardia,,ENT / Otolaryngology,[],0.78,anatomy:sinus,True
+sjogren syndrome,sjogren syndrome,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+skin cancer,skin cancer,,Oncology,[],0.86,rule:oncology,True
+skin disorder,skin disorder,,Dermatology,[],0.78,anatomy:skin,True
+skin pigmentation disorder,skin pigmentation disorder,,Dermatology,[],0.78,anatomy:skin,True
+skin polyp,skin polyp,,Dermatology,[],0.78,anatomy:skin,True
+smoking or tobacco addiction,smoking or tobacco addiction,,,[],0.0,unresolved,True
+social phobia,social phobia,,,[],0.0,unresolved,True
+soft tissue sarcoma,soft tissue sarcoma,,,[],0.0,unresolved,True
+somatization disorder,somatization disorder,,,[],0.0,unresolved,True
+spermatocele,spermatocele,,,[],0.0,unresolved,True
+spherocytosis,spherocytosis,,,[],0.0,unresolved,True
+spina bifida,spina bifida,,,[],0.0,unresolved,True
+spinal stenosis,spinal stenosis,,Neurology,[],0.78,anatomy:spinal,True
+spinocerebellar ataxia,spinocerebellar ataxia,,,[],0.0,unresolved,True
+spondylitis,spondylitis,,,[],0.0,unresolved,True
+spondylolisthesis,spondylolisthesis,,,[],0.0,unresolved,True
+spondylosis,spondylosis,,,[],0.0,unresolved,True
+spontaneous abortion,spontaneous abortion,,,[],0.0,unresolved,True
+sporotrichosis,sporotrichosis,,,[],0.0,unresolved,True
+sprain or strain,sprain or strain,,,[],0.0,unresolved,True
+stenosis of the tear duct,stenosis of the tear duct,,ENT / Otolaryngology,[],0.86,rule:ent,True
+stomach cancer,stomach cancer,,Oncology,[],0.86,rule:oncology,True
+strep throat,strep throat,,ENT / Otolaryngology,[],0.78,anatomy:throat,True
+stress incontinence,stress incontinence,,,[],0.0,unresolved,True
+stricture of the esophagus,stricture of the esophagus,,Gastroenterology / Hepatology,[],0.78,anatomy:esoph,True
+stroke,stroke,stroke,Neurology,"[""Cardiovascular / Cardiology""]",0.99,exact,False
+stye,stye,,,[],0.0,unresolved,True
+subacute thyroiditis,subacute thyroiditis,,Endocrinology,[],0.86,rule:diabetes,True
+subarachnoid hemorrhage,subarachnoid hemorrhage,,,[],0.0,unresolved,True
+subconjunctival hemorrhage,subconjunctival hemorrhage,,,[],0.0,unresolved,True
+subdural hemorrhage,subdural hemorrhage,,,[],0.0,unresolved,True
+substance-related mental disorder,substance-related mental disorder,,,[],0.0,unresolved,True
+syndrome of inappropriate secretion of adh (siadh),syndrome of inappropriate secretion of adh siadh,,,[],0.0,unresolved,True
+syphilis,syphilis,,,[],0.0,unresolved,True
+syringomyelia,syringomyelia,,,[],0.0,unresolved,True
+systemic lupus erythematosis (sle),systemic lupus erythematosis sle,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+teething syndrome,teething syndrome,,,[],0.0,unresolved,True
+temporary or benign blood in urine,temporary or benign blood in urine,,Hematology,[],0.78,anatomy:blood,True
+temporomandibular joint disorder,temporomandibular joint disorder,,Musculoskeletal,[],0.78,anatomy:joint,True
+tendinitis,tendinitis,,,[],0.0,unresolved,True
+tension headache,tension headache,,,[],0.0,unresolved,True
+testicular cancer,testicular cancer,,Oncology,[],0.86,rule:oncology,True
+testicular disorder,testicular disorder,,Urology,[],0.78,anatomy:testicular,True
+testicular torsion,testicular torsion,,Urology,[],0.78,anatomy:testicular,True
+thalassemia,thalassemia,,Hematology,[],0.86,rule:hematology,True
+thoracic aortic aneurysm,thoracic aortic aneurysm,,Cardiovascular / Cardiology,[],0.87,rule:cardiology,True
+thoracic outlet syndrome,thoracic outlet syndrome,,,[],0.0,unresolved,True
+threatened pregnancy,threatened pregnancy,,,[],0.0,unresolved,True
+thrombocytopenia,thrombocytopenia,,Hematology,[],0.86,rule:hematology,True
+thrombophlebitis,thrombophlebitis,,,[],0.0,unresolved,True
+thyroid cancer,thyroid cancer,,Endocrinology,[],0.86,rule:diabetes,True
+thyroid disease,thyroid disease,,Endocrinology,[],0.86,rule:diabetes,True
+thyroid nodule,thyroid nodule,,Endocrinology,[],0.86,rule:diabetes,True
+tic (movement) disorder,tic movement disorder,,,[],0.0,unresolved,True
+tietze syndrome,tietze syndrome,,,[],0.0,unresolved,True
+tinnitus of unknown cause,tinnitus of unknown cause,,,[],0.0,unresolved,True
+tonsillar hypertrophy,tonsillar hypertrophy,,ENT / Otolaryngology,[],0.78,anatomy:tonsil,True
+tonsillitis,tonsillitis,,ENT / Otolaryngology,[],0.86,rule:ent,True
+tooth abscess,tooth abscess,,,[],0.0,unresolved,True
+tooth disorder,tooth disorder,,,[],0.0,unresolved,True
+torticollis,torticollis,,,[],0.0,unresolved,True
+tourette syndrome,tourette syndrome,,,[],0.0,unresolved,True
+toxic multinodular goiter,toxic multinodular goiter,,,[],0.0,unresolved,True
+toxoplasmosis,toxoplasmosis,,,[],0.0,unresolved,True
+tracheitis,tracheitis,,Respiratory / Pulmonology,[],0.78,anatomy:trache,True
+transient ischemic attack,transient ischemic attack,,,[],0.0,unresolved,True
+trichiasis,trichiasis,,,[],0.0,unresolved,True
+trichinosis,trichinosis,,,[],0.0,unresolved,True
+trichomonas infection,trichomonas infection,,,[],0.0,unresolved,True
+tricuspid valve disease,tricuspid valve disease,,,[],0.0,unresolved,True
+trigeminal neuralgia,trigeminal neuralgia,,,[],0.0,unresolved,True
+trigger finger (finger disorder),trigger finger finger disorder,,,[],0.0,unresolved,True
+tuberculosis,tuberculosis,,,[],0.0,unresolved,True
+tuberous sclerosis,tuberous sclerosis,,,[],0.0,unresolved,True
+turner syndrome,turner syndrome,,,[],0.0,unresolved,True
+typhoid fever,typhoid fever,,,[],0.0,unresolved,True
+ulcerative colitis,ulcerative colitis,ulcerative colitis,Gastroenterology / Hepatology,"[""Allergy and Immunology""]",0.99,exact,False
+urethral disorder,urethral disorder,,Urology,[],0.78,anatomy:urethra,True
+urethral stricture,urethral stricture,,Urology,[],0.78,anatomy:urethra,True
+urethral valves,urethral valves,,Urology,[],0.78,anatomy:urethra,True
+urethritis,urethritis,,,[],0.0,unresolved,True
+urge incontinence,urge incontinence,,,[],0.0,unresolved,True
+urinary tract infection,urinary tract infection,,Urology,[],0.78,anatomy:urinary,True
+urinary tract obstruction,urinary tract obstruction,,Urology,[],0.78,anatomy:urinary,True
+uterine atony,uterine atony,,,[],0.0,unresolved,True
+uterine cancer,uterine cancer,,Oncology,[],0.86,rule:oncology,True
+uterine fibroids,uterine fibroids,,,[],0.0,unresolved,True
+uveitis,uveitis,,Ophthalmology,[],0.86,rule:ophthalmology,True
+vacterl syndrome,vacterl syndrome,,,[],0.0,unresolved,True
+vaginal cyst,vaginal cyst,,,[],0.0,unresolved,True
+vaginal yeast infection,vaginal yeast infection,,,[],0.0,unresolved,True
+vaginismus,vaginismus,,,[],0.0,unresolved,True
+vaginitis,vaginitis,,,[],0.0,unresolved,True
+valley fever,valley fever,,,[],0.0,unresolved,True
+varicocele of the testicles,varicocele of the testicles,,,[],0.0,unresolved,True
+varicose veins,varicose veins,,,[],0.0,unresolved,True
+vasculitis,vasculitis,,Rheumatology,[],0.91,rule:rheumatology_specific,False
+venous insufficiency,venous insufficiency,,,[],0.0,unresolved,True
+vertebrobasilar insufficiency,vertebrobasilar insufficiency,,,[],0.0,unresolved,True
+vesicoureteral reflux,vesicoureteral reflux,,Urology,[],0.78,anatomy:ureter,True
+viral exanthem,viral exanthem,,,[],0.0,unresolved,True
+viral hepatitis,viral hepatitis,,Gastroenterology / Hepatology,[],0.87,rule:gastroenterology,True
+viral warts,viral warts,,,[],0.0,unresolved,True
+vitamin a deficiency,vitamin a deficiency,,,[],0.0,unresolved,True
+vitamin b12 deficiency,vitamin b12 deficiency,,,[],0.0,unresolved,True
+vitamin d deficiency,vitamin d deficiency,,,[],0.0,unresolved,True
+vitreous degeneration,vitreous degeneration,,,[],0.0,unresolved,True
+vitreous hemorrhage,vitreous hemorrhage,,,[],0.0,unresolved,True
+vocal cord polyp,vocal cord polyp,,,[],0.0,unresolved,True
+volvulus,volvulus,,,[],0.0,unresolved,True
+von willebrand disease,von willebrand disease,,,[],0.0,unresolved,True
+vulvar cancer,vulvar cancer,,Oncology,[],0.86,rule:oncology,True
+vulvar disorder,vulvar disorder,,,[],0.0,unresolved,True
+vulvodynia,vulvodynia,,,[],0.0,unresolved,True
+wernicke korsakoff syndrome,wernicke korsakoff syndrome,,,[],0.0,unresolved,True
+white blood cell disease,white blood cell disease,,Hematology,[],0.78,anatomy:blood,True
+whooping cough,whooping cough,,,[],0.0,unresolved,True
+wilson disease,wilson disease,,,[],0.0,unresolved,True
+yeast infection,yeast infection,,,[],0.0,unresolved,True
+zenker diverticulum,zenker diverticulum,,,[],0.0,unresolved,True

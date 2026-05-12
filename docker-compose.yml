@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./services/backend
+    container_name: caresense-backend
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./services/backend/data:/data
+    networks:
+      - caresense_network
+
+  llm-extraction:
+    build: ./services/llm-extraction
+    container_name: caresense-llm
+    environment:
+      - PYTHONUNBUFFERED=1
+    env_file:
+      - ./services/llm-extraction/.env-example
+    ports:
+      - "8000:8000"
+    depends_on:
+      - backend
+    networks:
+      - caresense_network
+
+  ui:
+    build: ./services/ui
+    container_name: caresense-ui
+    ports:
+      - "5173:80"
+    depends_on:
+      - llm-extraction
+    networks:
+      - caresense_network
+
+networks:
+  caresense_network:
+    driver: bridge

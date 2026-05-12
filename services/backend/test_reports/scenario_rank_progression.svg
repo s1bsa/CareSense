@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="32" y="36" font-size="24" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">Scenario Rank Progression</text>
+<text x="32" y="60" font-size="13" font-family="Segoe UI, Arial, sans-serif" fill="#475569">Rank 1 is at the top. Each line shows how a target disease moves through the posterior ranking over time.</text>
+<line x1="70" y1="70.00" x2="1170" y2="70.00" stroke="#e2e8f0" stroke-width="1"/>
+<text x="24" y="74.00" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">1</text>
+<line x1="70" y1="151.67" x2="1170" y2="151.67" stroke="#e2e8f0" stroke-width="1"/>
+<text x="24" y="155.67" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">2</text>
+<line x1="70" y1="233.33" x2="1170" y2="233.33" stroke="#e2e8f0" stroke-width="1"/>
+<text x="24" y="237.33" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">3</text>
+<line x1="70" y1="315.00" x2="1170" y2="315.00" stroke="#e2e8f0" stroke-width="1"/>
+<text x="24" y="319.00" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">4</text>
+<line x1="70" y1="396.67" x2="1170" y2="396.67" stroke="#e2e8f0" stroke-width="1"/>
+<text x="24" y="400.67" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">5</text>
+<line x1="70" y1="478.33" x2="1170" y2="478.33" stroke="#e2e8f0" stroke-width="1"/>
+<text x="24" y="482.33" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">6</text>
+<line x1="70" y1="560.00" x2="1170" y2="560.00" stroke="#e2e8f0" stroke-width="1"/>
+<text x="24" y="564.00" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">7</text>
+<line x1="70.00" y1="70" x2="70.00" y2="560" stroke="#e2e8f0" stroke-width="1"/>
+<text x="60.00" y="596" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">Step 1</text>
+<line x1="436.67" y1="70" x2="436.67" y2="560" stroke="#e2e8f0" stroke-width="1"/>
+<text x="426.67" y="596" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">Step 2</text>
+<line x1="803.33" y1="70" x2="803.33" y2="560" stroke="#e2e8f0" stroke-width="1"/>
+<text x="793.33" y="596" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">Step 3</text>
+<line x1="1170.00" y1="70" x2="1170.00" y2="560" stroke="#e2e8f0" stroke-width="1"/>
+<text x="1160.00" y="596" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#475569">Step 4</text>
+<polyline fill="none" stroke="#0f766e" stroke-width="2.4" points="70.00,151.67 436.67,151.67 803.33,70.00 1170.00,70.00"/>
+<circle cx="70.00" cy="151.67" r="3.4" fill="#0f766e"/>
+<circle cx="436.67" cy="151.67" r="3.4" fill="#0f766e"/>
+<circle cx="803.33" cy="70.00" r="3.4" fill="#0f766e"/>
+<circle cx="1170.00" cy="70.00" r="3.4" fill="#0f766e"/>
+<polyline fill="none" stroke="#0369a1" stroke-width="2.4" points="70.00,70.00 436.67,70.00 803.33,70.00 1170.00,70.00"/>
+<circle cx="70.00" cy="70.00" r="3.4" fill="#0369a1"/>
+<circle cx="436.67" cy="70.00" r="3.4" fill="#0369a1"/>
+<circle cx="803.33" cy="70.00" r="3.4" fill="#0369a1"/>
+<circle cx="1170.00" cy="70.00" r="3.4" fill="#0369a1"/>
+<polyline fill="none" stroke="#1d4ed8" stroke-width="2.4" points="70.00,151.67 436.67,151.67 803.33,151.67 1170.00,151.67"/>
+<circle cx="70.00" cy="151.67" r="3.4" fill="#1d4ed8"/>
+<circle cx="436.67" cy="151.67" r="3.4" fill="#1d4ed8"/>
+<circle cx="803.33" cy="151.67" r="3.4" fill="#1d4ed8"/>
+<circle cx="1170.00" cy="151.67" r="3.4" fill="#1d4ed8"/>
+<polyline fill="none" stroke="#4338ca" stroke-width="2.4" points="70.00,560.00 436.67,70.00 803.33,70.00"/>
+<circle cx="70.00" cy="560.00" r="3.4" fill="#4338ca"/>
+<circle cx="436.67" cy="70.00" r="3.4" fill="#4338ca"/>
+<circle cx="803.33" cy="70.00" r="3.4" fill="#4338ca"/>
+<polyline fill="none" stroke="#7c3aed" stroke-width="2.4" points="70.00,151.67 436.67,70.00 803.33,70.00 1170.00,151.67"/>
+<circle cx="70.00" cy="151.67" r="3.4" fill="#7c3aed"/>
+<circle cx="436.67" cy="70.00" r="3.4" fill="#7c3aed"/>
+<circle cx="803.33" cy="70.00" r="3.4" fill="#7c3aed"/>
+<circle cx="1170.00" cy="151.67" r="3.4" fill="#7c3aed"/>
+<polyline fill="none" stroke="#be185d" stroke-width="2.4" points="70.00,70.00 436.67,70.00 803.33,70.00 1170.00,70.00"/>
+<circle cx="70.00" cy="70.00" r="3.4" fill="#be185d"/>
+<circle cx="436.67" cy="70.00" r="3.4" fill="#be185d"/>
+<circle cx="803.33" cy="70.00" r="3.4" fill="#be185d"/>
+<circle cx="1170.00" cy="70.00" r="3.4" fill="#be185d"/>
+<polyline fill="none" stroke="#c2410c" stroke-width="2.4" points="70.00,151.67 436.67,151.67 803.33,151.67 1170.00,233.33"/>
+<circle cx="70.00" cy="151.67" r="3.4" fill="#c2410c"/>
+<circle cx="436.67" cy="151.67" r="3.4" fill="#c2410c"/>
+<circle cx="803.33" cy="151.67" r="3.4" fill="#c2410c"/>
+<circle cx="1170.00" cy="233.33" r="3.4" fill="#c2410c"/>
+<polyline fill="none" stroke="#ca8a04" stroke-width="2.4" points="70.00,70.00 436.67,70.00 803.33,233.33 1170.00,70.00"/>
+<circle cx="70.00" cy="70.00" r="3.4" fill="#ca8a04"/>
+<circle cx="436.67" cy="70.00" r="3.4" fill="#ca8a04"/>
+<circle cx="803.33" cy="233.33" r="3.4" fill="#ca8a04"/>
+<circle cx="1170.00" cy="70.00" r="3.4" fill="#ca8a04"/>
+<polyline fill="none" stroke="#4d7c0f" stroke-width="2.4" points="70.00,151.67 436.67,151.67 803.33,151.67 1170.00,151.67"/>
+<circle cx="70.00" cy="151.67" r="3.4" fill="#4d7c0f"/>
+<circle cx="436.67" cy="151.67" r="3.4" fill="#4d7c0f"/>
+<circle cx="803.33" cy="151.67" r="3.4" fill="#4d7c0f"/>
+<circle cx="1170.00" cy="151.67" r="3.4" fill="#4d7c0f"/>
+<polyline fill="none" stroke="#166534" stroke-width="2.4" points="70.00,70.00 436.67,70.00 803.33,70.00 1170.00,396.67"/>
+<circle cx="70.00" cy="70.00" r="3.4" fill="#166534"/>
+<circle cx="436.67" cy="70.00" r="3.4" fill="#166534"/>
+<circle cx="803.33" cy="70.00" r="3.4" fill="#166534"/>
+<circle cx="1170.00" cy="396.67" r="3.4" fill="#166534"/>
+<polyline fill="none" stroke="#334155" stroke-width="2.4" points="70.00,151.67 436.67,151.67 803.33,151.67 1170.00,151.67"/>
+<circle cx="70.00" cy="151.67" r="3.4" fill="#334155"/>
+<circle cx="436.67" cy="151.67" r="3.4" fill="#334155"/>
+<circle cx="803.33" cy="151.67" r="3.4" fill="#334155"/>
+<circle cx="1170.00" cy="151.67" r="3.4" fill="#334155"/>
+<polyline fill="none" stroke="#7c2d12" stroke-width="2.4" points="70.00,70.00 436.67,70.00 803.33,151.67 1170.00,151.67"/>
+<circle cx="70.00" cy="70.00" r="3.4" fill="#7c2d12"/>
+<circle cx="436.67" cy="70.00" r="3.4" fill="#7c2d12"/>
+<circle cx="803.33" cy="151.67" r="3.4" fill="#7c2d12"/>
+<circle cx="1170.00" cy="151.67" r="3.4" fill="#7c2d12"/>
+<polyline fill="none" stroke="#111827" stroke-width="3.2" stroke-dasharray="8 6" points="70.00,151.67 436.67,70.00 803.33,151.67 1170.00,151.67"/>
+<rect x="874" y="68" width="290" height="270" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="890" y="86" font-size="12" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">Scenario legend</text>
+<line x1="890" y1="92" x2="908" y2="92" stroke="#0f766e" stroke-width="3"/>
+<text x="914" y="96" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">common cold</text>
+<line x1="890" y1="112" x2="908" y2="112" stroke="#0369a1" stroke-width="3"/>
+<text x="914" y="116" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">asthma</text>
+<line x1="890" y1="132" x2="908" y2="132" stroke="#1d4ed8" stroke-width="3"/>
+<text x="914" y="136" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">appendicitis</text>
+<line x1="890" y1="152" x2="908" y2="152" stroke="#4338ca" stroke-width="3"/>
+<text x="914" y="156" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">migraine</text>
+<line x1="890" y1="172" x2="908" y2="172" stroke="#7c3aed" stroke-width="3"/>
+<text x="914" y="176" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">urinary tract infection</text>
+<line x1="890" y1="192" x2="908" y2="192" stroke="#be185d" stroke-width="3"/>
+<text x="914" y="196" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">acute bronchitis</text>
+<line x1="890" y1="212" x2="908" y2="212" stroke="#c2410c" stroke-width="3"/>
+<text x="914" y="216" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">acute sinusitis</text>
+<line x1="890" y1="232" x2="908" y2="232" stroke="#ca8a04" stroke-width="3"/>
+<text x="914" y="236" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">diverticulitis</text>
+<line x1="890" y1="252" x2="908" y2="252" stroke="#4d7c0f" stroke-width="3"/>
+<text x="914" y="256" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">gout</text>
+<line x1="890" y1="272" x2="908" y2="272" stroke="#166534" stroke-width="3"/>
+<text x="914" y="276" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">esophagitis</text>
+<line x1="890" y1="292" x2="908" y2="292" stroke="#334155" stroke-width="3"/>
+<text x="914" y="296" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">anxiety</text>
+<line x1="890" y1="312" x2="908" y2="312" stroke="#7c2d12" stroke-width="3"/>
+<text x="914" y="316" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">cystitis</text>
+<line x1="890" y1="342" x2="908" y2="342" stroke="#111827" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="914" y="346" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#0f172a">Average</text>
+</svg>

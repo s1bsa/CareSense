@@ -1,0 +1,706 @@
+{
+  "generatedAt": "2026-03-13T14:51:12.765783+00:00",
+  "testSummary": {
+    "total": 14,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true
+  },
+  "scenarioSummary": {
+    "scenarioCount": 12,
+    "passedCount": 12,
+    "failedCount": 0,
+    "averageFinalRank": 1.917,
+    "medianFinalRank": 2.0,
+    "averageFinalScore": 0.3147,
+    "averageRankGain": 66.583
+  },
+  "scenarios": [
+    {
+      "scenario_name": "Common cold trajectory",
+      "target_disease": "common cold",
+      "prior_rank": 84,
+      "seed_symptom": "flu-like syndrome",
+      "expected_max_rank": 3,
+      "final_rank": 1,
+      "final_score": 0.7386112975568521,
+      "top_disease": "common cold",
+      "top_score": 0.7386112975568521,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "flu-like syndrome",
+          "submitted_answer": "flu-like syndrome",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 2,
+          "target_score": 0.3564768803003989,
+          "top_disease": "infectious gastroenteritis",
+          "top_score": 0.4541662638395332
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "yes",
+          "next_question_id": "nausea",
+          "next_question_text": "nausea?",
+          "target_rank": 2,
+          "target_score": 0.4224797360092104,
+          "top_disease": "infectious gastroenteritis",
+          "top_score": 0.5292647449845247
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "nausea",
+          "submitted_answer": "no",
+          "next_question_id": "sharp abdominal pain",
+          "next_question_text": "sharp abdominal pain?",
+          "target_rank": 1,
+          "target_score": 0.5979894486929593,
+          "top_disease": "common cold",
+          "top_score": 0.5979894486929593
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "sharp abdominal pain",
+          "submitted_answer": "no",
+          "next_question_id": "sharp chest pain",
+          "next_question_text": "sharp chest pain?",
+          "target_rank": 1,
+          "target_score": 0.7386112975568521,
+          "top_disease": "common cold",
+          "top_score": 0.7386112975568521
+        }
+      ]
+    },
+    {
+      "scenario_name": "Asthma trajectory",
+      "target_disease": "asthma",
+      "prior_rank": 86,
+      "seed_symptom": "coughing up sputum",
+      "expected_max_rank": 3,
+      "final_rank": 1,
+      "final_score": 0.2108468258151848,
+      "top_disease": "asthma",
+      "top_score": 0.2108468258151848,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "coughing up sputum",
+          "submitted_answer": "coughing up sputum",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 1,
+          "target_score": 0.20645575258238633,
+          "top_disease": "asthma",
+          "top_score": 0.20645575258238633
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "no",
+          "next_question_id": "back pain",
+          "next_question_text": "back pain?",
+          "target_rank": 1,
+          "target_score": 0.20843673219527986,
+          "top_disease": "asthma",
+          "top_score": 0.20843673219527986
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "back pain",
+          "submitted_answer": "no",
+          "next_question_id": "skin swelling",
+          "next_question_text": "skin swelling?",
+          "target_rank": 1,
+          "target_score": 0.20975910089171462,
+          "top_disease": "asthma",
+          "top_score": 0.20975910089171462
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "skin swelling",
+          "submitted_answer": "no",
+          "next_question_id": "cough",
+          "next_question_text": "cough?",
+          "target_rank": 1,
+          "target_score": 0.2108468258151848,
+          "top_disease": "asthma",
+          "top_score": 0.2108468258151848
+        }
+      ]
+    },
+    {
+      "scenario_name": "Appendicitis trajectory",
+      "target_disease": "appendicitis",
+      "prior_rank": 91,
+      "seed_symptom": "stomach bloating",
+      "expected_max_rank": 2,
+      "final_rank": 2,
+      "final_score": 0.18228358044053214,
+      "top_disease": "cholecystitis",
+      "top_score": 0.2105710015237292,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "stomach bloating",
+          "submitted_answer": "stomach bloating",
+          "next_question_id": "sharp abdominal pain",
+          "next_question_text": "sharp abdominal pain?",
+          "target_rank": 2,
+          "target_score": 0.1892199459084362,
+          "top_disease": "cholecystitis",
+          "top_score": 0.23452051226218554
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "sharp abdominal pain",
+          "submitted_answer": "no",
+          "next_question_id": "cough",
+          "next_question_text": "cough?",
+          "target_rank": 2,
+          "target_score": 0.17722383550286763,
+          "top_disease": "cholecystitis",
+          "top_score": 0.20472606718348993
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "cough",
+          "submitted_answer": "no",
+          "next_question_id": "leg pain",
+          "next_question_text": "leg pain?",
+          "target_rank": 2,
+          "target_score": 0.18024132826427217,
+          "top_disease": "cholecystitis",
+          "top_score": 0.20821182531553872
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "leg pain",
+          "submitted_answer": "no",
+          "next_question_id": "depressive or psychotic symptoms",
+          "next_question_text": "depressive or psychotic symptoms?",
+          "target_rank": 2,
+          "target_score": 0.18228358044053214,
+          "top_disease": "cholecystitis",
+          "top_score": 0.2105710015237292
+        }
+      ]
+    },
+    {
+      "scenario_name": "Migraine trajectory",
+      "target_disease": "migraine",
+      "prior_rank": 346,
+      "seed_symptom": "symptoms of the face",
+      "expected_max_rank": 5,
+      "final_rank": 1,
+      "final_score": 0.7702980589178806,
+      "top_disease": "migraine",
+      "top_score": 0.7702980589178806,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "symptoms of the face",
+          "submitted_answer": "symptoms of the face",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 7,
+          "target_score": 0.042364018182932166,
+          "top_disease": "actinic keratosis",
+          "top_score": 0.2512535831478001
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "yes",
+          "next_question_id": "nausea",
+          "next_question_text": "nausea?",
+          "target_rank": 1,
+          "target_score": 0.657139161692881,
+          "top_disease": "migraine",
+          "top_score": 0.657139161692881
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "nausea",
+          "submitted_answer": "yes",
+          "next_question_id": "sharp abdominal pain",
+          "next_question_text": "sharp abdominal pain?",
+          "target_rank": 1,
+          "target_score": 0.7702980589178806,
+          "top_disease": "migraine",
+          "top_score": 0.7702980589178806
+        }
+      ]
+    },
+    {
+      "scenario_name": "UTI trajectory",
+      "target_disease": "urinary tract infection",
+      "prior_rank": 48,
+      "seed_symptom": "suprapubic pain",
+      "expected_max_rank": 2,
+      "final_rank": 2,
+      "final_score": 0.10277495579554446,
+      "top_disease": "balanitis",
+      "top_score": 0.1364125871161202,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "suprapubic pain",
+          "submitted_answer": "suprapubic pain",
+          "next_question_id": "sharp abdominal pain",
+          "next_question_text": "sharp abdominal pain?",
+          "target_rank": 2,
+          "target_score": 0.0713851990417577,
+          "top_disease": "cystitis",
+          "top_score": 0.0717712257836483
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "sharp abdominal pain",
+          "submitted_answer": "no",
+          "next_question_id": "painful urination",
+          "next_question_text": "painful urination?",
+          "target_rank": 1,
+          "target_score": 0.11477803661040452,
+          "top_disease": "urinary tract infection",
+          "top_score": 0.11477803661040452
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "painful urination",
+          "submitted_answer": "yes",
+          "next_question_id": "retention of urine",
+          "next_question_text": "retention of urine?",
+          "target_rank": 1,
+          "target_score": 0.14950531328404418,
+          "top_disease": "urinary tract infection",
+          "top_score": 0.14950531328404418
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "retention of urine",
+          "submitted_answer": "no",
+          "next_question_id": "blood in urine",
+          "next_question_text": "blood in urine?",
+          "target_rank": 2,
+          "target_score": 0.10277495579554446,
+          "top_disease": "balanitis",
+          "top_score": 0.1364125871161202
+        }
+      ]
+    },
+    {
+      "scenario_name": "Acute bronchitis trajectory",
+      "target_disease": "acute bronchitis",
+      "prior_rank": 13,
+      "seed_symptom": "congestion in chest",
+      "expected_max_rank": 2,
+      "final_rank": 1,
+      "final_score": 0.5565297159856701,
+      "top_disease": "acute bronchitis",
+      "top_score": 0.5565297159856701,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "congestion in chest",
+          "submitted_answer": "congestion in chest",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 1,
+          "target_score": 0.36492372043547217,
+          "top_disease": "acute bronchitis",
+          "top_score": 0.36492372043547217
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "no",
+          "next_question_id": "cough",
+          "next_question_text": "cough?",
+          "target_rank": 1,
+          "target_score": 0.3711346667271618,
+          "top_disease": "acute bronchitis",
+          "top_score": 0.3711346667271618
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "cough",
+          "submitted_answer": "yes",
+          "next_question_id": "nasal congestion",
+          "next_question_text": "nasal congestion?",
+          "target_rank": 1,
+          "target_score": 0.3822396360302109,
+          "top_disease": "acute bronchitis",
+          "top_score": 0.3822396360302109
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "nasal congestion",
+          "submitted_answer": "yes",
+          "next_question_id": "sore throat",
+          "next_question_text": "sore throat?",
+          "target_rank": 1,
+          "target_score": 0.5565297159856701,
+          "top_disease": "acute bronchitis",
+          "top_score": 0.5565297159856701
+        }
+      ]
+    },
+    {
+      "scenario_name": "Acute sinusitis trajectory",
+      "target_disease": "acute sinusitis",
+      "prior_rank": 81,
+      "seed_symptom": "sinus congestion",
+      "expected_max_rank": 5,
+      "final_rank": 3,
+      "final_score": 0.19651702703567664,
+      "top_disease": "chronic sinusitis",
+      "top_score": 0.365313124105358,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "sinus congestion",
+          "submitted_answer": "sinus congestion",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 2,
+          "target_score": 0.18642795107826482,
+          "top_disease": "nose disorder",
+          "top_score": 0.23374501198284872
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "no",
+          "next_question_id": "cough",
+          "next_question_text": "cough?",
+          "target_rank": 2,
+          "target_score": 0.1976155576114146,
+          "top_disease": "nose disorder",
+          "top_score": 0.24777213188641223
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "cough",
+          "submitted_answer": "yes",
+          "next_question_id": "nasal congestion",
+          "next_question_text": "nasal congestion?",
+          "target_rank": 2,
+          "target_score": 0.23834692573497115,
+          "top_disease": "nose disorder",
+          "top_score": 0.29639274060219506
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "nasal congestion",
+          "submitted_answer": "no",
+          "next_question_id": "shortness of breath",
+          "next_question_text": "shortness of breath?",
+          "target_rank": 3,
+          "target_score": 0.19651702703567664,
+          "top_disease": "chronic sinusitis",
+          "top_score": 0.365313124105358
+        }
+      ]
+    },
+    {
+      "scenario_name": "Diverticulitis trajectory",
+      "target_disease": "diverticulitis",
+      "prior_rank": 12,
+      "seed_symptom": "constipation",
+      "expected_max_rank": 2,
+      "final_rank": 1,
+      "final_score": 0.36811010070845207,
+      "top_disease": "diverticulitis",
+      "top_score": 0.36811010070845207,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "constipation",
+          "submitted_answer": "constipation",
+          "next_question_id": "sharp abdominal pain",
+          "next_question_text": "sharp abdominal pain?",
+          "target_rank": 1,
+          "target_score": 0.15929902001644838,
+          "top_disease": "diverticulitis",
+          "top_score": 0.15929902001644838
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "sharp abdominal pain",
+          "submitted_answer": "yes",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 1,
+          "target_score": 0.2233900659501508,
+          "top_disease": "diverticulitis",
+          "top_score": 0.2233900659501508
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "no",
+          "next_question_id": "nausea",
+          "next_question_text": "nausea?",
+          "target_rank": 3,
+          "target_score": 0.16187577411082868,
+          "top_disease": "rectal disorder",
+          "top_score": 0.24024213992940374
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "nausea",
+          "submitted_answer": "yes",
+          "next_question_id": "lower abdominal pain",
+          "next_question_text": "lower abdominal pain?",
+          "target_rank": 1,
+          "target_score": 0.36811010070845207,
+          "top_disease": "diverticulitis",
+          "top_score": 0.36811010070845207
+        }
+      ]
+    },
+    {
+      "scenario_name": "Gout trajectory",
+      "target_disease": "gout",
+      "prior_rank": 19,
+      "seed_symptom": "ankle swelling",
+      "expected_max_rank": 2,
+      "final_rank": 2,
+      "final_score": 0.27136385676154856,
+      "top_disease": "injury to the leg",
+      "top_score": 0.2726892321233722,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "ankle swelling",
+          "submitted_answer": "ankle swelling",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 2,
+          "target_score": 0.26363950996262137,
+          "top_disease": "injury to the leg",
+          "top_score": 0.26492715863874833
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "no",
+          "next_question_id": "back pain",
+          "next_question_text": "back pain?",
+          "target_rank": 2,
+          "target_score": 0.26683404024430635,
+          "top_disease": "injury to the leg",
+          "top_score": 0.2681372914099412
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "back pain",
+          "submitted_answer": "no",
+          "next_question_id": "cough",
+          "next_question_text": "cough?",
+          "target_rank": 2,
+          "target_score": 0.268975390897648,
+          "top_disease": "injury to the leg",
+          "top_score": 0.27028910069042217
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "cough",
+          "submitted_answer": "no",
+          "next_question_id": "abnormal appearing skin",
+          "next_question_text": "abnormal appearing skin?",
+          "target_rank": 2,
+          "target_score": 0.27136385676154856,
+          "top_disease": "injury to the leg",
+          "top_score": 0.2726892321233722
+        }
+      ]
+    },
+    {
+      "scenario_name": "Esophagitis trajectory",
+      "target_disease": "esophagitis",
+      "prior_rank": 7,
+      "seed_symptom": "upper abdominal pain",
+      "expected_max_rank": 5,
+      "final_rank": 5,
+      "final_score": 0.11103566865352073,
+      "top_disease": "acute pancreatitis",
+      "top_score": 0.19416593477519523,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "upper abdominal pain",
+          "submitted_answer": "upper abdominal pain",
+          "next_question_id": "sharp abdominal pain",
+          "next_question_text": "sharp abdominal pain?",
+          "target_rank": 1,
+          "target_score": 0.0961261558211765,
+          "top_disease": "esophagitis",
+          "top_score": 0.0961261558211765
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "sharp abdominal pain",
+          "submitted_answer": "no",
+          "next_question_id": "sharp chest pain",
+          "next_question_text": "sharp chest pain?",
+          "target_rank": 1,
+          "target_score": 0.09849917527337491,
+          "top_disease": "esophagitis",
+          "top_score": 0.09849917527337491
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "sharp chest pain",
+          "submitted_answer": "yes",
+          "next_question_id": "shortness of breath",
+          "next_question_text": "shortness of breath?",
+          "target_rank": 1,
+          "target_score": 0.19009212121894686,
+          "top_disease": "esophagitis",
+          "top_score": 0.19009212121894686
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "shortness of breath",
+          "submitted_answer": "no",
+          "next_question_id": "chest tightness",
+          "next_question_text": "chest tightness?",
+          "target_rank": 5,
+          "target_score": 0.11103566865352073,
+          "top_disease": "acute pancreatitis",
+          "top_score": 0.19416593477519523
+        }
+      ]
+    },
+    {
+      "scenario_name": "Anxiety trajectory",
+      "target_disease": "anxiety",
+      "prior_rank": 34,
+      "seed_symptom": "fears and phobias",
+      "expected_max_rank": 2,
+      "final_rank": 2,
+      "final_score": 0.13974373021355121,
+      "top_disease": "marijuana abuse",
+      "top_score": 0.14297384504031233,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "fears and phobias",
+          "submitted_answer": "fears and phobias",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 2,
+          "target_score": 0.1378053146834067,
+          "top_disease": "marijuana abuse",
+          "top_score": 0.14099062388822847
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "no",
+          "next_question_id": "back pain",
+          "next_question_text": "back pain?",
+          "target_rank": 2,
+          "target_score": 0.13868320560478642,
+          "top_disease": "marijuana abuse",
+          "top_score": 0.14188880687192176
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "back pain",
+          "submitted_answer": "no",
+          "next_question_id": "skin swelling",
+          "next_question_text": "skin swelling?",
+          "target_rank": 2,
+          "target_score": 0.13926611193425484,
+          "top_disease": "marijuana abuse",
+          "top_score": 0.14248518682467584
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "skin swelling",
+          "submitted_answer": "no",
+          "next_question_id": "cough",
+          "next_question_text": "cough?",
+          "target_rank": 2,
+          "target_score": 0.13974373021355121,
+          "top_disease": "marijuana abuse",
+          "top_score": 0.14297384504031233
+        }
+      ]
+    },
+    {
+      "scenario_name": "Cystitis trajectory",
+      "target_disease": "cystitis",
+      "prior_rank": 1,
+      "seed_symptom": "symptoms of bladder",
+      "expected_max_rank": 2,
+      "final_rank": 2,
+      "final_score": 0.12788821611721926,
+      "top_disease": "benign prostatic hyperplasia (bph)",
+      "top_score": 0.23821178699041545,
+      "passed": true,
+      "steps": [
+        {
+          "step_index": 1,
+          "evaluated_symptom": "symptoms of bladder",
+          "submitted_answer": "symptoms of bladder",
+          "next_question_id": "vomiting",
+          "next_question_text": "vomiting?",
+          "target_rank": 1,
+          "target_score": 0.20007313323444953,
+          "top_disease": "cystitis",
+          "top_score": 0.20007313323444953
+        },
+        {
+          "step_index": 2,
+          "evaluated_symptom": "vomiting",
+          "submitted_answer": "no",
+          "next_question_id": "back pain",
+          "next_question_text": "back pain?",
+          "target_rank": 1,
+          "target_score": 0.2018604577703406,
+          "top_disease": "cystitis",
+          "top_score": 0.2018604577703406
+        },
+        {
+          "step_index": 3,
+          "evaluated_symptom": "back pain",
+          "submitted_answer": "no",
+          "next_question_id": "cough",
+          "next_question_text": "cough?",
+          "target_rank": 2,
+          "target_score": 0.12689095784445822,
+          "top_disease": "benign prostatic hyperplasia (bph)",
+          "top_score": 0.2363542376206781
+        },
+        {
+          "step_index": 4,
+          "evaluated_symptom": "cough",
+          "submitted_answer": "no",
+          "next_question_id": "skin swelling",
+          "next_question_text": "skin swelling?",
+          "target_rank": 2,
+          "target_score": 0.12788821611721926,
+          "top_disease": "benign prostatic hyperplasia (bph)",
+          "top_score": 0.23821178699041545
+        }
+      ]
+    }
+  ]
+}
